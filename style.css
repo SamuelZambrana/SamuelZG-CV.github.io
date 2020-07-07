@@ -13,7 +13,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .icon {
@@ -88,8 +88,8 @@ img.avatar {
   flex: 1;
 }
 
-.link-item svg {
-  margin-right: 6px;
+.link-item i {
+  padding: 6px;
 }
 
 /***********************************
