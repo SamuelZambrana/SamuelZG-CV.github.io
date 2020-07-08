@@ -13,7 +13,7 @@ body {
 }
 
 img {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 .icon {
@@ -46,7 +46,7 @@ section {
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
   padding: 24px 0;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgrey;
 }
 
 section:last-child {
@@ -59,7 +59,7 @@ section:last-child {
 }
 
 /***********************************
-* =Main Info
+* Información
 ***********************************/
 
 img.avatar {
@@ -82,18 +82,24 @@ img.avatar {
   margin: 10px 0 20px 0;
 }
 
+.links-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 50px;
+}
+
 .link-item {
   display: flex;
   align-items: center;
   flex: 1;
 }
 
-.link-item i {
-  padding: 6px;
+.link-item svg {
+  margin-right: 6px;
 }
 
 /***********************************
-* =Experience
+* Experiencia Laboral
 ***********************************/
 
 .job {
@@ -119,7 +125,7 @@ img.avatar {
 }
 
 /***********************************
-* =Skills
+* Habilidades
 ***********************************/
 
 .skills-container {
@@ -135,7 +141,7 @@ img.avatar {
 }
 
 /***********************************
-* =Interests
+* Intereses
 ***********************************/
 
 .interests-container {
@@ -146,18 +152,6 @@ img.avatar {
 .interests-container img {
   height: 35px;
   opacity: 0.75;
-}
-
-/***********************************
-* =References
-***********************************/
-
-.reference {
-  font-size: 18px;
-}
-
-.reference-details {
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width : 768px) {
