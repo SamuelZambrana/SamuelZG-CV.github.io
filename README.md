@@ -25,4 +25,4 @@ Para ver mi currículum en tu máquina local:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/SamuelZambrana/SamuelZambrana.github.io.github.io.git
+   git clone https://github.com/SamuelZambrana/SamuelZambrana.github.io
