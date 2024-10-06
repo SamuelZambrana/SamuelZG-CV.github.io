@@ -4,7 +4,7 @@
 
 ## Demo
 
-Puedes ver mi currículum en vivo en [SamuelZambrana.github.io.github.io](https://SamuelZambrana/SamuelZambrana.github.io).
+Puedes ver mi currículum en vivo en [SamuelZambrana.github.io](https://SamuelZambrana/SamuelZambrana.github.io).
 
 ## Contenido
 
