@@ -213,7 +213,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #2473b8;
+  color: #6c757d;
   text-align: left;
   caption-side: bottom;
 }
@@ -269,6 +269,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
+  appearance: auto;
   -webkit-appearance: button;
 }
 
@@ -328,6 +329,7 @@ progress {
 
 [type=search] {
   outline-offset: -2px;
+  appearance: var(--dark);
   -webkit-appearance: none;
 }
 
@@ -468,7 +470,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #1f6aac;
+  color: #6c757d;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -3897,7 +3899,7 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   list-style: none;
 }
 
@@ -3978,7 +3980,9 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
+  padding-bottom: none;
+  margin-top: 20px;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -3999,6 +4003,13 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+}
+
+.navbar-brand > img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
