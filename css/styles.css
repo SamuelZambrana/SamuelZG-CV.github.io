@@ -3976,12 +3976,12 @@ input[type=button].btn-block {
 
 .navbar {
   position: relative;
+  inline-size: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 1rem;
-  padding-bottom: none;
+  padding: 1rem 1rem;
   margin-top: 20px;
 }
 .navbar .container,
